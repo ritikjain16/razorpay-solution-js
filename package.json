@@ -1,0 +1,25 @@
+{
+  "name": "razorpay-solution-js",
+  "version": "1.0.0",
+  "description": "Easy Way to integrate Razorpay Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "razorpay",
+    "razorpay-solution",
+    "razorpay-solution-js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  },
+  "author": "Ravishing Ritik16",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "razorpay": "^2.8.1",
+    "razorpay-solution-js": "^1.0.0"
+  }
+}
