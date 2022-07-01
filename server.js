@@ -9,13 +9,13 @@ export const createinstance = (key_id, key_secret) => {
   return instance;
 };
 
-export const createOrder = (instance, amount, currency, OrderId) => {
+export const createOrder = async (instance, amount, currency, OrderId) => {
   var options = {
     amount,
     currency,
     receipt: OrderId,
   };
-  instance.orders.create(options, function (err, order) {
+  await instance.orders.create(options, function (err, order) {
     return order;
   });
 };
