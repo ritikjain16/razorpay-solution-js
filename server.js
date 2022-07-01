@@ -9,17 +9,14 @@ export const createinstance = (key_id, key_secret) => {
   return instance;
 };
 
-export const createOrder = (instance, amount, currency, OrderId, key_id) => {
+export const createOrder = (instance, amount, currency, OrderId) => {
   var options = {
     amount,
     currency,
     receipt: OrderId,
   };
   instance.orders.create(options, function (err, order) {
-    return {
-      order,
-      key_id,
-    };
+    return order;
   });
 };
 
