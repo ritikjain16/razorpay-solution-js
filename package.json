@@ -1,6 +1,6 @@
 {
   "name": "razorpay-solution-js",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Easy Way to integrate Razorpay Backend",
   "main": "server.js",
   "scripts": {
