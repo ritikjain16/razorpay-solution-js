@@ -34,7 +34,7 @@ Razorpay Solution has 5 methods :
         const order = await createOrder(instance, amount, currency, OrderId);
 
         // Usage
-        
+
         const order = await createOrder(instance, 1000, "INR", OrderId);
 
 
@@ -177,12 +177,7 @@ For more details https://www.npmjs.com/package/react-razorpay
     <p>It will return <b>"Payment Failed"</b> if the order is unsuccessful</p>
     <p>See Example below :-</p>
 
-        const orderstatus = verifyOrder(
-        razorpay_key_secret,
-        razorpay_order_id,
-        razorpay_payment_id,
-        razorpay_signature
-        );
+        const orderstatus = verifyOrder(razorpay_key_secret, razorpay_order_id, razorpay_payment_id, razorpay_signature);
             
         if (orderstatus === "Payment Verified") {
             // Payment Successful
