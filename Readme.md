@@ -1,5 +1,13 @@
 Use Razorpay Solution Js For <b>Easy Way</b> to integrate Razorpay Payment Gateway.
 
+<h1>Create a Razorpay account</h1>
+
+Visit https://dashboard.razorpay.com/signup
+
+<p>Sign up and you will redirect to dashboard</p>
+<p>Go to Settings and then click on API Keys tab.</p>
+<p>Generate test or public <b>razorpay_key_id</b> and <b>razorpay_key_secret</b></p>
+
 Run the commands in your backend :
 
     npm i razorpay-solution-js
@@ -36,7 +44,6 @@ Razorpay Solution has 5 methods :
         // Usage
 
         const order = await createOrder(instance, 1000, "INR", OrderId);
-
 
 Then integrate frontend part in your client side.
 
@@ -178,7 +185,7 @@ For more details https://www.npmjs.com/package/react-razorpay
     <p>See Example below :-</p>
 
         const orderstatus = verifyOrder(razorpay_key_secret, razorpay_order_id, razorpay_payment_id, razorpay_signature);
-            
+
         if (orderstatus === "Payment Verified") {
             // Payment Successful
         }else{
