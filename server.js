@@ -10,14 +10,16 @@ export const createinstance = (key_id, key_secret) => {
 };
 
 export const createOrder = async (instance, amount, currency, OrderId) => {
+  let ord;
   var options = {
-    amount,
-    currency,
+    amount: amount,
+    currency: currency,
     receipt: OrderId,
   };
   await instance.orders.create(options, function (err, order) {
-    return order;
+    ord = order;
   });
+  return ord;
 };
 
 export const verifyOrder = (
