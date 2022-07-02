@@ -39,7 +39,7 @@ Razorpay Solution has 5 methods :
         <p>If you pass "optimum" - It will be a instant refund</p>
     <p>This method returns refund details.</p>
 
-<h1>getRefundStatus</p>
+<h1>getRefundStatus</h1>
     <p>It returns the status of any refunded order, just pass (instance, razorpay_payment_id, refundID)</p>
     <p>instance :- which returns from createinstance method</p>
     <p>razorpay_payment_id :- which returns by razorpay after order completion</p>
