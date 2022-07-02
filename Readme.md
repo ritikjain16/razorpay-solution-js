@@ -24,6 +24,10 @@ Razorpay Solution has 5 methods :
     4. createRefund
     5. getRefundStatus
 
+<h2>Import methods in your js file :-</h2>
+
+    import {createinstance, createOrder, verifyOrder, createRefund, getRefundStatus} from "razorpay-solution-js";
+
 <h1>createinstance</h1>
     <p>It returns a instance of razorpay, just pass (<b>razorpay_key_id</b>,<b>razorpay_key_secret</b>)</p>
     <p>See Example below :-</p>
