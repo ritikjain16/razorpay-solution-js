@@ -79,7 +79,7 @@ Then integrate frontend part in your client side.
 
     </script>
 
-<h2>If you are using React, run : - </h2>
+<h1>If you are using React, run : - </h1>
 
     npm i react-razorpay
 
@@ -87,7 +87,7 @@ Then integrate frontend part in your client side.
 
     yarn add react-razorpay
 
-    // Add code in .js file
+<h2>Add code in .js file</h2>
 
         import useRazorpay from "react-razorpay";
 
@@ -154,9 +154,9 @@ Then integrate frontend part in your client side.
 
         }
 
-    Then checkout on razorpay hassle free.
+Then checkout on razorpay hassle free.
 
-    For more details https://www.npmjs.com/package/react-razorpay
+For more details https://www.npmjs.com/package/react-razorpay
 
 <h1>verifyOrder</h1>
     <p>If the order is completed then verify the order from this method.</p>
